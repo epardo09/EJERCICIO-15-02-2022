@@ -1,6 +1,55 @@
 /* CSS TYPOGRAFÍA */
 /* **************************************************************** */
 
-@font-face {
-    
+/*variables*/
+
+/*fuente no standard*/
+
+/**********************************************/
+
+/*colores en la tipografia*/
+
+/*tipo de tipografia*/
+
+html, a{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: var(--colorTextoParrafo);
+}
+a{
+    color: var(--colorTextoLinks);
+}
+.banner__boton, .texto__boton{
+    color: #fff;
+}
+
+
+
+/* banner*/
+.banner__titulo{
+font-size: 2rem;
+font-weight: bold;
+color: var(--colorTitulos);
+
+}
+
+.banner__subtitulo{
+font-size: 1.2rem;
+font-weight: lighter;
+color: var(--colorTitulos);
+margin-bottom: 2rem;
+
+}
+
+.banner__boton{
+background-color: var(--colorBotonMore);
+border-radius: 30px;
+padding: 0.5rem 2rem;
+
+}
+
+/*contenedor*/
+.texto{
+    font-weight: bold;
+    line-height: 1.5rem;
 }
